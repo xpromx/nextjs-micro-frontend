@@ -1,0 +1,35 @@
+.root {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.root a {
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+}
+
+.root a:hover {
+  text-decoration: underline;
+}
+
+.left {
+  padding: 10px;
+}
+
+.left a {
+  margin-right: 10px;
+}
+
+.right {
+  padding: 10px;
+}
+
+.right a {
+  margin-left: 10px;
+}
